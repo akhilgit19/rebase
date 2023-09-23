@@ -1,0 +1,34 @@
+-Git rebase- Fastforward merge
+-The commits from the child branch will be added as 
+ latest commits
+---------------------------------------------------
+-Step1- git init
+-Step2- touch f1
+-Step3- git add .
+      - git commit -m "a"
+-Step4- touch f2
+-Step5- git add.
+-Step6- git commit -m "b"
+-Step7- git branch test
+-Step8- git checkout test
+-Step9- touch t1
+-Step10- git add.
+-Step11- git commit -m "c"
+-Step12- touch t2
+-Step13- git add.
+-Step14- git commit -m "d"
+-Step15- touch t3
+-Step16- git add.
+-Step17- git commit -m "e"
+-Step18- git log --online
+-Step19- git checkout master
+-Step20- touch f3
+-Step21- git add .
+-Step22- git commit -m "f"
+-Step23- git log --one-line
+-Step24- git checkout test
+-Step25- git rebase master
+-Step26- git checkout master
+-Step27- git merge test
+
+
